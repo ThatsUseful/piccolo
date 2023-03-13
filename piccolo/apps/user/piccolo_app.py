@@ -18,8 +18,8 @@ APP_CONFIG = AppConfig(
     table_classes=[BaseUser],
     migration_dependencies=[],
     commands=[
-        Command(callable=create, aliases=["new"]),
-        Command(callable=change_password, aliases=["password", "pass"]),
-        Command(callable=change_permissions, aliases=["perm", "perms"]),
+        # Command(callable=create, aliases=["new"]),
+        # Command(callable=change_password, aliases=["password", "pass"]),
+        # Command(callable=change_permissions, aliases=["perm", "perms"]),
     ],
 )
